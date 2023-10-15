@@ -25,3 +25,15 @@ p {
   margin-left: auto;
   margin-right: 0 !important;
 }
+
+/* this is for the hover feature  */
+.navbar-nav li a:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #ffee10;
+}
+
+.navbar-nav li a:hover {
+  color: #ffee10;
+  box-shadow: 0 0 5px #ffee10;
+  text-shadow: 0 0 5px #ffee10;
+}
