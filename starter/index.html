@@ -17,7 +17,6 @@
   <title>Sidiq Hersi // Web Developer</title>
 </head>
 
-<body>
   <!-- Navigation -->
   <!-- this code is taken from Bootstrap -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary "navbar bg-dark border-bottom border-body data-bs-theme="dark">
@@ -30,9 +29,6 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="nav-items">
           
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Hero</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link active" href="#">Projects</a>
           </li>
           <li class="nav-item">
@@ -41,15 +37,20 @@
           <li class="nav-item">
             <a class="nav-link active" href="#">Contact Me</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="hero-banner">Footer</a>
+          </li>
   
         </ul>
       </div>
     </div>
   </nav>
+<body>
+
   <!-- end navigation bar -->
 
   <!-- Jumbotron  -->
-  <div class="p-5 mb-4 bg-body-tertiary rounded-3 hero-banner">
+  <div class="p-5 mb-4 bg-body-tertiary rounded-3 hero-banner" >
     <div class="container-fluid py-5 jumboCopy">
       <h2 class="display-5 fw-bold">Welcome to my amazing portfolio</h2>
     </div>
@@ -65,18 +66,45 @@
   </div>
   
    <!-- portfolio container -->
-   
-   <!-- <section class="page-section" id="projects">
-    <h2> My Projects</h2>
-    <div class="container-fluid">
-      <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
-       
-      </div>
-   
-      </div>
-  </section> -->
+   <!-- Cards -->
 
+   <div class="jumbotron jumbotron-fluid projects">
+    <div class="container">
+      <h2 class="display-4">My Projects</h2>
+      
+      <!-- card 1 -->
+      <div class="card text-bg-info mb-3">
+        <img src="../starter/images/Screenshot 2023-10-09 at 21.18.06.png" class="card-img-top" alt="horiseon website screenshot">
+        <div class="card-body">
+          <h5 class="card-title">accessibility-refactor</h5>
+          <p class="card-text">This project was to modify existing code that needed to be modified and refactored to help meet a certain standard or integrate new technology. In this project, a marketing agency had hired us to refactor an existing site to make it more accessible for the user.</p>
+          <a href id="buttons" ="https://sidiq96.github.io/accessibility-refactor/" class="btn btn-primary">Click here to find out more</a>
+        </div>
+      </div>
+        <!-- end of card 1 -->
 
+    <div class="row proj">
+      <!-- card 2 -->
+      <div class="card text-bg-info mb-4 card-spacing" style="width: 35rem;">
+        <img src="../starter/images/Screenshot 2023-10-10 at 16.21.31.png" class="card-img-top" alt="first version portfolio screenshot">
+        <div class="card-body">
+          <p class="card-text"> This project I created a portfolio of work that showcased my skills and talents to employers looking to fill a part-time or full-time position.</p>
+          <a href ="https://sidiq96.github.io/Sidiq_Portfolio/" class="btn btn-primary">Click here to find out more</a>
+        </div>
+      </div>
+      <!-- end of card 2 -->
+      
+      <!-- card 3 -->
+      <div class="card text-bg-info mb-4 card-spacing" style="width: 35rem;">
+        <img src="../starter/images/abstract-coming-soon-halftone-style-background-design_1017-27282.jpg.avif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">COMING SOON.</p>
+          <a href ="#" class="btn btn-primary">Coming Soon</a>
+        </div>
+      </div>
+      <!-- end of card 3 -->
+    </div>
+  </div>
 
     <!-- about me -->
     <section class="page-section" id="about">
