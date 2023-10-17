@@ -8,7 +8,7 @@ In this assignment, I'll be building my portfolio layout using the Bootstrap CSS
 ```
 AS bootcamp student
 I want to create a portfolio website that showcase my skills and talents
-So the portfolio has information about me, displays my projects and lists my contact details.
+So the portfolio has to have information about me, displays my projects and list my contact details.
 ```
 ### Acceptance Criteria
 
