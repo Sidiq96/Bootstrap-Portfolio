@@ -34,6 +34,7 @@ p {
 }
 
 /* this is for the hover feature  */
+/* link the code for the hover effects can be found in the READ.ME */
 .navbar-nav li a:hover::before {
   transform: scale(1.1);
   box-shadow: 0 0 15px #ffee10;
