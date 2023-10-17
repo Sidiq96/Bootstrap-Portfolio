@@ -16,6 +16,7 @@
 
   <title>Sidiq Hersi // Web Developer</title>
 </head>
+ <main>
 
   <!-- Navigation -->
   <!-- this code is taken from Bootstrap -->
@@ -29,18 +30,14 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="nav-items">
           
           <li class="nav-item">
-            <a class="nav-link active" href="#">Projects</a>
+            <a class="nav-link active" href="#Projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Skills</a>
+            <a class="nav-link active" href="#about">About Me</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="#">Contact Me</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="hero-banner">Footer</a>
-          </li>
-  
         </ul>
       </div>
     </div>
@@ -67,8 +64,8 @@
   
    <!-- portfolio container -->
    <!-- Cards -->
-
-   <div class="jumbotron jumbotron-fluid projects">
+   <!-- code taken from bootstrap -->
+   <div class="jumbotron jumbotron-fluid projects" id="Projects">
     <div class="container">
       <h2 class="display-4">My Projects</h2>
       
@@ -83,43 +80,107 @@
       </div>
         <!-- end of card 1 -->
 
-    <div class="row proj">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
       <!-- card 2 -->
-      <div class="card text-bg-info mb-4 card-spacing" style="width: 35rem;">
-        <img src="../starter/images/Screenshot 2023-10-10 at 16.21.31.png" class="card-img-top" alt="first version portfolio screenshot">
-        <div class="card-body">
-          <p class="card-text"> This project I created a portfolio of work that showcased my skills and talents to employers looking to fill a part-time or full-time position.</p>
-          <a href ="https://sidiq96.github.io/Sidiq_Portfolio/" class="btn btn-primary">Click here to find out more</a>
+      <div class="col">
+        <div class="card text-bg-info mb-4">
+          <img src="../starter/images/Screenshot 2023-10-10 at 16.21.31.png" class="card-img-top" alt="first version portfolio screenshot">
+          <div class="card-body">
+            <h5 class="card-title">Portfilo version 1</h5>
+            <p class="card-text">This project I created a portfolio of work that showcased my skills and talents to employers looking to fill a part-time or full-time position.</p>
+            <a href ="https://sidiq96.github.io/Sidiq_Portfolio/" class="btn btn-primary">Click here to find out more</a>
+          </div>
         </div>
       </div>
       <!-- end of card 2 -->
-      
-      <!-- card 3 -->
-      <div class="card text-bg-info mb-4 card-spacing" style="width: 35rem;">
-        <img src="../starter/images/abstract-coming-soon-halftone-style-background-design_1017-27282.jpg.avif" class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">COMING SOON.</p>
-          <a href ="#" class="btn btn-primary">Coming Soon</a>
+
+      <div class="col">
+        <!-- card 3 -->
+        <div class="card text-bg-info mb-4">
+          <img src="../starter/images/abstract-coming-soon-halftone-style-background-design_1017-27282.jpg.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Coming Soon</h5>
+            <p class="card-text">Stay tuned because more is coming soon.</p>
+            <a href ="#" class="btn btn-primary">Coming Soon</a>
+          </div>
         </div>
       </div>
       <!-- end of card 3 -->
+
+      <div class="col">
+        <!-- card 4 -->
+        <div class="card text-bg-info mb-4">
+          <img src="../starter/images/abstract-coming-soon-halftone-style-background-design_1017-27282.jpg.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Coming Soon</h5>
+            <p class="card-text">Stay tuned because more is coming soon</p>
+            <a href ="#" class="btn btn-primary">Coming Soon</a>
+          </div>
+        </div>
+      </div>
+      <!-- end of card 4 -->
+
+      <div class="col">
+        <!-- card 5 -->
+        <div class="card text-bg-info mb-4">
+          <img src="../starter/images/abstract-coming-soon-halftone-style-background-design_1017-27282.jpg.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Coming Soon</h5>
+            <p class="card-text">Stay tuned because more is coming soon</p>
+            <a href ="#" class="btn btn-primary">Coming Soon</a>
+          </div>
+        </div>
+      </div>
+      <!-- end of card 5 -->
     </div>
+
   </div>
 
     <!-- about me -->
     <section class="page-section" id="about">
-      <h2>About Me</h2>
+      <div class="jumbotron jumbotron-fluid about-me">
+        <div class="container">
+          <h1 class="display-4">About Me</h1>
+          <p class="lead">Hello there! I'm Sidiq Hersi, and I'm passionate about creating creative websites which come life on the web. My journey into the world of front-end development starts as bootcamp student and over time, I want to hone my skills to not only create aesthetically pleasing web pages but also to ensure they are functional, accessible, and responsive. With a keen eye for detail and a knack for wanting to learn and face challenges, I'm dedicated to learning and studying different programming languages</p>
+        </div>
+        <div class="skills-section">
+          <h2>The Skills I will be learning in this bootcamp</h2>
+          <ul class="skills-list">
+              <li>
+                  <span class="skill-category">Languages:</span> HTML, CSS, JavaScript
+              </li>
+              <li>
+                  <span class="skill-category">Frameworks and Libraries:</span>
+                  <ul class="sub-skills">
+                      <li>Bootstrap</li>
+                      <li>React.js</li>
+                      <li>Vue.js</li>
+                      <li>Node.js</li>
+                      <li>Bootstrap</li>
+                      <li>jQuery</li>
+                      <li>APIs</li>
+                      <li>JSON</li>
+                      <li>AJAX</li>
+                      <li>ES6</li>
+                  </ul>
+              </li>
+          </ul>
+      </div>
+      </div>
     </section>
 
-    <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
-    </section>
-  </main>
+   
+ </main>
 </body>
 
-<footer>
+ <!-- contact me -->
+    <!-- code taken from bootstrap -->
+    <section class="page-section contact" id="Contact Me">
+     <footer>
+     
 
-</footer>
+     </footer>
+    </section>
+
 
 </html>

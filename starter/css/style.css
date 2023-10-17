@@ -89,7 +89,6 @@ p {
   background-image: url(../images/quino-al-JFeOy62yjXk-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  /* height: calc(200vh -50px); */
   width: 100%;
   min-height: 800px;
 }
@@ -102,12 +101,36 @@ p {
 
 }
 
- .card-spacing {
-    padding: 20px;
-    margin: 20px;
+/* about me */
+.about-me{
+  background-image: url(../images/faded-gray-background-with-paint-brush-texture.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 750px;
+}
+.about-me h1 {
+  color: black ;
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 25px;
+}
+.about-me p{
+  color: black;
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 80px;
+}
 
-  }
-  .proj{
-    padding: 0px 30px 30px;
+.skills-section{
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+.skills-section h2{
+  color: black;
+}
 
-  }
+
+/* footer */
