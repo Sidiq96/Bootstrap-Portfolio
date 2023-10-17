@@ -30,7 +30,7 @@ When viewing the section about your work then the section contains titled images
 
 The steps required to access is through this link (https://sidiq96.github.io/Bootstrap-Portfolio/), By clicking this link will lead to the website and be able to see it. As you can see in the screenshot below.
 
-![screenshot of website](/Challenges/03-modules/Bootstrap-Portfolio/starter/images/Screenshot%20of%20my%20website.png)
+![screenshot of website](./images/Screenshot%20of%20my%20website.png)
 
 ## Usage
 
